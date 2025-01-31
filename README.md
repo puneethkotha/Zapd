@@ -1,4 +1,4 @@
-# EV Charge Station Finder and Slot Booking App using Flutter
+# Zapd - EV Charge Station Finder and Slot Booking App using Flutter
 
 Welcome to the open-source repository of the **EV Charge Station Finder and Slot Booking App**, developed by **Puneeth Kotha**. This Flutter-based application is designed to simplify the process of locating nearby electric vehicle (EV) charging stations and booking charging slots. As an open-source project, it welcomes contributions from the community to enhance the functionality and usability of the app.
 
