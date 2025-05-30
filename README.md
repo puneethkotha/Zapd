@@ -52,9 +52,6 @@ Contributions to the project are greatly appreciated. If you'd like to contribut
 - Google Maps API: Integration for displaying maps and location-related features.
 - Firebase: Backend services for user authentication, storage, and notifications.
 
-## License
-
-This project is open-source and released under the [MIT License](LICENSE).
 
 ## Contact
 
