@@ -52,9 +52,3 @@ Contributions to the project are greatly appreciated. If you'd like to contribut
 - Google Maps API: Integration for displaying maps and location-related features.
 - Firebase: Backend services for user authentication, storage, and notifications.
 
-
-## Contact
-
-For questions, suggestions, or collaboration opportunities, feel free to reach out to me at [puneeth5127@gmail.com](mailto:puneeth5127@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/puneeth-kotha-760360215).
-
-We invite you to contribute and be part of the journey toward making EV charging more accessible and user-friendly. Your input can make a positive impact on this innovative initiative.
