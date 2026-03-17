@@ -1,0 +1,16 @@
+{
+  "framework": "nextjs",
+  "buildCommand": "pnpm build",
+  "devCommand": "pnpm dev",
+  "installCommand": "pnpm install",
+  "env": {
+    "NEXT_PUBLIC_SUPABASE_URL": "@supabase_url",
+    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "@supabase_anon_key",
+    "NEXT_PUBLIC_MAPBOX_TOKEN": "@mapbox_token",
+    "STRIPE_SECRET_KEY": "@stripe_secret_key",
+    "STRIPE_WEBHOOK_SECRET": "@stripe_webhook_secret",
+    "RESEND_API_KEY": "@resend_api_key",
+    "UPLOADTHING_SECRET": "@uploadthing_secret",
+    "UPLOADTHING_APP_ID": "@uploadthing_app_id"
+  }
+}
