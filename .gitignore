@@ -1,0 +1,35 @@
+# Dependencies
+node_modules
+.pnpm-store
+
+# Next.js
+.next
+out
+
+# Environment
+.env
+.env.local
+.env*.local
+
+# Testing
+coverage
+playwright-report
+test-results
+
+# Misc
+.DS_Store
+*.pem
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+*~
+
+# Build
+dist
+build
