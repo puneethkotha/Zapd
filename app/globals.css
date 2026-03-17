@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #0a0a0b;
+  --color-surface: #111114;
+  --color-surface-2: #18181c;
+  --color-border: #27272a;
+  --color-border-subtle: #1c1c1f;
+  --color-accent: #22d3ee;
+  --color-accent-green: #4ade80;
+  --color-accent-amber: #fbbf24;
+  --color-accent-red: #f87171;
+  --color-text-primary: #fafafa;
+  --color-text-secondary: #a1a1aa;
+  --color-text-muted: #71717a;
+  --font-sans: "Geist", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, monospace;
+}
+
+@layer base {
+  :root {
+    --background: #0a0a0b;
+    --surface: #111114;
+    --surface-2: #18181c;
+    --border: #27272a;
+    --border-subtle: #1c1c1f;
+    --accent: #22d3ee;
+    --accent-green: #4ade80;
+    --accent-amber: #fbbf24;
+    --accent-red: #f87171;
+    --text-primary: #fafafa;
+    --text-secondary: #a1a1aa;
+    --text-muted: #71717a;
+  }
+
+  .light {
+    --background: #fafafa;
+    --surface: #ffffff;
+    --surface-2: #f4f4f5;
+    --border: #e4e4e7;
+    --border-subtle: #f4f4f5;
+    --accent: #0891b2;
+    --accent-green: #22c55e;
+    --accent-amber: #f59e0b;
+    --accent-red: #ef4444;
+    --text-primary: #18181b;
+    --text-secondary: #52525b;
+    --text-muted: #71717a;
+  }
+
+  * {
+    border-color: var(--border);
+  }
+
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--text-primary);
+    font-family: var(--font-sans);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+/* Glow effects for active states */
+.glow-accent {
+  box-shadow: 0 0 20px rgba(34, 211, 238, 0.15);
+}
+
+.glow-green {
+  box-shadow: 0 0 20px rgba(74, 222, 128, 0.15);
+}
+
+.glow-amber {
+  box-shadow: 0 0 20px rgba(251, 191, 36, 0.15);
+}
